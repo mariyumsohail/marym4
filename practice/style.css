@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbarNav{
+    background-color: blue;
+    color: antiquewhite;
+}
+.nav-item{
+    color: antiquewhite;
+   list-style-type: none;
+   display: flex;
+   gap: 86px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   position: relative;
+    top: 4px;
+}
+.btn{
+    margin-left: 501px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.img-fluid{
+    width: 100%;
+    height: 1254px;
+    position: relative;
+    top: -10px;
+}
+@media only screen and (max-width: 768px) {
+    .img-fluid{
+        max-width: 101%;
+        height: 391px;
+        position: relative;
+        top: -10px;
+    }
+    }
+   .button1{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+     top: -136px;
+   background-color: white;
+     padding: 30px;
+     padding-left: 70px;
+     padding-right: 70px;
+     margin-left: 595px;
+     border-radius: 30px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     font-size: 30px;
+     
+   }
+   .button1:hover{
+    color: white;
+    background-color: #6593F5;
+   }
+   @media only screen and (max-width: 768px) {
+    .button1{
+        color: black;
+        font-family: serif;
+        font-size: 15px;
+        position: relative;
+        top: -70px;
+        background-color: white;
+        padding: 0px;
+        padding-left: 42px;
+        padding-right: 47px;
+        margin-left: 132px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-size: 20px;
+   }
+}
+.img3{
+    width: 100%;
+    height: 1254px;
+    position: relative;
+    top: -118px;
+    background-image: url(images/backy.png);
+}
+.h2{
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 92px;
+    position: relative;
+    top: 82px;
+    margin-left: 458px;
+    word-spacing: 20px;
+}
+.size{
+    position: relative;
+    top: 40px;
+}
